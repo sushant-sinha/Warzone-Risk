@@ -1,0 +1,7606 @@
+---editcontinent---
+continentID is added to the list!
+---editcontinent---
+continentID is added to the list!
+---gameplayer---
+User_1 player added with strategy type: human
+---gameplayer---
+User_1 player added with strategy type: human
+---gameplayer---
+User_2 player added with strategy type: human
+---gameplayer---
+User_2 player added with strategy type: human
+---editcontinent---
+Asia is added to the list!
+---editcontinent---
+Asia is added to the list!
+---editcontinent---
+Asia is removed to the list!
+---editcontinent---
+Asia is removed to the list!
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---editcontinent---
+Asia is added to the list!
+---editcontinent---
+Asia is added to the list!
+---editcontinent---
+Australia is added to the list!
+---editcontinent---
+Australia is added to the list!
+---editcountry---
+Delhi is added to the country list ofAsia
+---editcountry---
+Delhi is added to the country list ofAsia
+---editcountry---
+Mumbai is added to the country list ofAsia
+---editcountry---
+Mumbai is added to the country list ofAsia
+---editcountry---
+Melbourne is added to the country list ofAustralia
+---editcountry---
+Melbourne is added to the country list ofAustralia
+---editneighbor---
+Mumbai is set as neighbor of Delhi
+---editneighbor---
+Mumbai is set as neighbor of Delhi
+---editneighbor---
+Delhi is set as neighbor of Mumbai
+---editneighbor---
+Delhi is set as neighbor of Mumbai
+---editneighbor---
+Delhi is set as neighbor of Melbourne
+---editneighbor---
+Delhi is set as neighbor of Melbourne
+---savemap---
+testing_save_file.map saved successfully!
+
+---savemap---
+testing_save_file.map saved successfully!
+
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+deploy Mercury-South 5
+---issue_order---
+deploy Mercury-South 5
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Germany
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Germany │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Germany
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Germany │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 4 armies from Germany to attack on UK
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ UK      │ 3          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 4 armies from Germany to attack on UK
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ UK      │ 3          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 1          ║
+╚═════════╧════════════╝
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---negotiate---
+
+Executing Player_1 Order:
+
+ Order Effect
+Negotiating between Player_1 and Player_2
+
+---negotiate---
+
+Executing Player_1 Order:
+
+ Order Effect
+Negotiating between Player_1 and Player_2
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---airlift---
+
+Executing Player_1 Order:
+Player_1 used the Airlift card to move 0 armies from SriLanka to UK
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 1          ║
+╟──────────┼────────────╢
+║ UK       │ 6          ║
+╚══════════╧════════════╝
+
+---airlift---
+
+Executing Player_1 Order:
+Player_1 used the Airlift card to move 0 armies from SriLanka to UK
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 1          ║
+╟──────────┼────────────╢
+║ UK       │ 6          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 2 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 2 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╚═════════╧════════════╝
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 2 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 2 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_1 did not won the attack!!!!
+Player_1 moved 8 armies from UK to attack on Spain
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╟─────────┼────────────╢
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_1 did not won the attack!!!!
+Player_1 moved 8 armies from UK to attack on Spain
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╟─────────┼────────────╢
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 2 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 2 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_1 did not won the attack!!!!
+Player_1 moved 5 armies from UK to attack on Spain
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╟─────────┼────────────╢
+║ UK      │ 2          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_1 did not won the attack!!!!
+Player_1 moved 5 armies from UK to attack on Spain
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 2          ║
+╟─────────┼────────────╢
+║ UK      │ 2          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [India, China, Pakistan, SriLanka]
+Player_2: [Nepal, Germany, UK, Spain]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in SriLanka
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ SriLanka │ 3          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Nepal
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Nepal   │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from SriLanka to attack on Germany
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Germany │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in UK
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ UK      │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Spain
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Spain   │ 3          ║
+╚═════════╧════════════╝
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---assigncountries---
+Countries are successfully assigned!
+Player_1: [Antoniadi, Dollfus, Schiaparelli, Copernicus]
+Player_2: [Greeley, Caloris, Catullus, Karsh]
+
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_1 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---issue_order---
+Player_2 player's turn to Issue Order
+---execution_order---
+Execution of orders started!
+---execution_order---
+Execution of orders started!
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_1 Order:
+Deploying 3 armies in Copernicus
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Copernicus │ 3          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Greeley
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Greeley │ 1          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing Player_1 Order:
+Player_2 won the attack!!!!
+Player_2 moved 2 armies from Copernicus to attack on Caloris
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Caloris │ 2          │ Player_2       │ Player_1  ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---execute_order_error---
+Player_2: You can deploy the reinforcements only in your assigned countries
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 1 armies in Catullus
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Catullus │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing Player_2 Order:
+Deploying 3 armies in Karsh
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ Karsh   │ 3          ║
+╚═════════╧════════════╝
+
+---tournament---
+
+----Result of Tournament after Execution----
+M: [test_earth.map, test_craters.map]
+P: [Player_1, Player_2]
+G: 20
+D: 3
+╔════════╤═══════╗
+║ Result │ Game1 ║
+╠════════╪═══════╣
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╚════════╧═══════╝
+
+---tournament---
+
+----Result of Tournament after Execution----
+M: [test_earth.map, test_craters.map]
+P: [Player_1, Player_2]
+G: 20
+D: 3
+╔════════╤═══════╗
+║ Result │ Game1 ║
+╠════════╪═══════╣
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╟────────┼───────╢
+║ Draw   │ Draw  ║
+╚════════╧═══════╝
+
+---gameplayer---
+User_1 player added with strategy type: human
+---gameplayer---
+User_1 player added with strategy type: human
+---gameplayer---
+User_2 player added with strategy type: human
+---gameplayer---
+User_2 player added with strategy type: human
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---savemap---
+testing_save_file.map saved successfully!
+
+---savemap---
+testing_save_file.map saved successfully!
+
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+deploy Mercury-South 5
+---issue_order---
+deploy Mercury-South 5
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---gameplayer---
+User_1 player added with strategy type: human
+---gameplayer---
+User_1 player added with strategy type: human
+---gameplayer---
+User_2 player added with strategy type: human
+---gameplayer---
+User_2 player added with strategy type: human
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+deploy Mercury-South 5
+---issue_order---
+deploy Mercury-South 5
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+User_1 player's turn to Issue Order
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---savemap---
+testing_save_file.map saved successfully!
+
+---savemap---
+testing_save_file.map saved successfully!
+
+---editcontinent---
+continentID is added to the list!
+---editcontinent---
+continentID is added to the list!

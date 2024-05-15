@@ -1,0 +1,12 @@
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+

@@ -1,0 +1,14 @@
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+

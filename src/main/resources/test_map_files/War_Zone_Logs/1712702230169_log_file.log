@@ -1,0 +1,88 @@
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---issue_order---
+User_1 player's turn to Issue Order
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---savemap---
+testing_save_file.map saved successfully!
+
+---editcontinent---
+continentID is added to the list!

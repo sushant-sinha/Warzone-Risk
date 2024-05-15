@@ -1,0 +1,17 @@
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---savemap---
+testing_save_file.map saved successfully!
+
+---editcontinent---
+continentID is added to the list!

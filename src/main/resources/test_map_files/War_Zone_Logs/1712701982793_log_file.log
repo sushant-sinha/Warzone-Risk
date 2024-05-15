@@ -1,0 +1,39 @@
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+

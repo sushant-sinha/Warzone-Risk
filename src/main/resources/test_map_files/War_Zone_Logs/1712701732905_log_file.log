@@ -1,0 +1,26 @@
+---issue_order---
+User_1 player's turn to Issue Order
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+

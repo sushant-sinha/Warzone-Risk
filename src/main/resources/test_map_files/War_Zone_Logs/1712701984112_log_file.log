@@ -1,0 +1,19 @@
+---editcontinent---
+Asia is added to the list!
+---editcontinent---
+Australia is added to the list!
+---editcountry---
+Delhi is added to the country list ofAsia
+---editcountry---
+Mumbai is added to the country list ofAsia
+---editcountry---
+Melbourne is added to the country list ofAustralia
+---editneighbor---
+Mumbai is set as neighbor of Delhi
+---editneighbor---
+Delhi is set as neighbor of Mumbai
+---editneighbor---
+Delhi is set as neighbor of Melbourne
+---savemap---
+testing_save_file.map saved successfully!
+

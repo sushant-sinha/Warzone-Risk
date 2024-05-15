@@ -1,0 +1,99 @@
+{
+    "phase": "IssueOrder",
+    "map_editor": {
+        "continents": [{
+            "name": "Europe",
+            "controlValue": 2,
+            "countries": [
+                {
+                    "numberOfArmies": 0,
+                    "name": "France"
+                },
+                {
+                    "numberOfArmies": 2,
+                    "name": "Germany"
+                },
+                {
+                    "numberOfArmies": 0,
+                    "name": "Russia"
+                },
+                {
+                    "numberOfArmies": 0,
+                    "name": "UK"
+                },
+                {
+                    "numberOfArmies": 3,
+                    "name": "Italy"
+                },
+                {
+                    "numberOfArmies": 0,
+                    "name": "Spain"
+                },
+                {
+                    "numberOfArmies": 1,
+                    "name": "Poland"
+                }
+            ]
+        }],
+        "neighborCountryMappings": {
+            "UK": ["Russia"],
+            "Poland": ["Germany"],
+            "Italy": [
+                "Germany",
+                "Spain"
+            ],
+            "France": [
+                "Germany",
+                "Russia"
+            ],
+            "Germany": [
+                "France",
+                "Italy",
+                "Poland"
+            ],
+            "Russia": [
+                "France",
+                "UK"
+            ],
+            "Spain": ["Italy"]
+        }
+    },
+    "game_pay": {
+        "players": [
+            {
+                "cards": [],
+                "assignCountries": [
+                    "France",
+                    "Germany",
+                    "Russia",
+                    "UK",
+                    "Poland"
+                ],
+                "remainingReinforceCount": 3,
+                "name": "p1",
+                "orders": [],
+                "strategy": "HUMAN",
+                "reinforceCount": 3
+            },
+            {
+                "cards": [],
+                "assignCountries": [
+                    "Italy",
+                    "Spain"
+                ],
+                "remainingReinforceCount": 3,
+                "name": "p2",
+                "orders": [],
+                "strategy": "HUMAN",
+                "reinforceCount": 3
+            }
+        ],
+        "currentExecutionIndex": 6,
+        "currentPlayerForIssuePhase": 0,
+        "currentPlayerForExecutionPhase": 0,
+        "friendPlayerMappings": {
+            "p1": [],
+            "p2": []
+        }
+    }
+}

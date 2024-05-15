@@ -1,0 +1,20 @@
+[Continents]
+Europe 2
+
+[Countries]
+1 France 1
+2 Germany 1
+3 Russia 1
+4 UK 1
+5 Italy 1
+6 Spain 1
+7 Poland 1
+
+[borders]
+1 2 3 
+2 1 5 7 
+3 1 4 
+4 3 
+5 2 6 
+6 5 
+7 2 

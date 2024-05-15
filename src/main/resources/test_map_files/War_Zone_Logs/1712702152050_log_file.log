@@ -1,0 +1,24 @@
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+

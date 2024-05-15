@@ -1,0 +1,36 @@
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+

@@ -1,0 +1,308 @@
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---issue_order---
+deploy Mercury-South 5
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---issue_order---
+User_1 player's turn to Issue Order
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---gameplayer---
+User_1 player added with strategy type: human
+---gameplayer---
+User_2 player added with strategy type: human
+---advance---
+
+Executing User_1 Order:
+User_1 moved 10 armies from Mercury-South to Mercury-East
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-East  │ 30         ║
+╟───────────────┼────────────╢
+║ Mercury-South │ 0          ║
+╚═══════════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔════════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY    │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠════════════╪════════════╪════════════════╪═══════════╣
+║ Venus-East │ 6          │ User_2         │ User_1    ║
+╚════════════╧════════════╧════════════════╧═══════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_1 did not won the attack!!!!
+User_1 moved 6 armies from Venus-South to attack on Venus-East
+ Order Effect
+╔═════════════╤════════════╗
+║ COUNTRY     │ ARMY COUNT ║
+╠═════════════╪════════════╣
+║ Venus-East  │ 1          ║
+╟─────────────┼────────────╢
+║ Venus-South │ 6          ║
+╚═════════════╧════════════╝
+
+---airlift---
+
+Executing User_1 Order:
+User_1 used the Airlift card to move 2 armies from Mercury-South to Mercury-East
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 5          ║
+╟───────────────┼────────────╢
+║ Mercury-East  │ 7          ║
+╚═══════════════╧════════════╝
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---blockade---
+Blockade card to triple the armies in Mercury-South
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 5          ║
+╚════════════╧════════════╝
+
+---bomb---
+
+Executing User_1 Order:
+User_1 used Bomb card to half the army count of Venus-East
+
+ Order Effect
+╔════════════╤════════════╗
+║ COUNTRY    │ ARMY COUNT ║
+╠════════════╪════════════╣
+║ Venus-East │ 0          ║
+╚════════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 20 armies in Mercury-South
+
+ Order Effect
+╔═══════════════╤════════════╗
+║ COUNTRY       │ ARMY COUNT ║
+╠═══════════════╪════════════╣
+║ Mercury-South │ 20         ║
+╚═══════════════╧════════════╝
+
+---issue_order---
+player_1 player's turn to Issue Order
+---issue_order---
+deploy Mercury-South 5
+---negotiate---
+
+Executing User_1 Order:
+
+ Order Effect
+Negotiating between User_1 and User_2
+
+---issue_order---
+User_1 player's turn to Issue Order
+---deploy---
+
+Executing User_1 Order:
+Deploying 6 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 6          ║
+╚═════════╧════════════╝
+
+---advance---
+
+Executing User_1 Order:
+User_2 won the attack!!!!
+User_2 moved 10 armies from India to attack on Nepal
+ Order Effect
+╔═════════╤════════════╤════════════════╤═══════════╗
+║ COUNTRY │ ARMY COUNT │ PREVIOUS OWNER │ NEW OWNER ║
+╠═════════╪════════════╪════════════════╪═══════════╣
+║ Nepal   │ 6          │ User_2         │ User_1    ║
+╚═════════╧════════════╧════════════════╧═══════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in India
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ India   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in China
+
+ Order Effect
+╔═════════╤════════════╗
+║ COUNTRY │ ARMY COUNT ║
+╠═════════╪════════════╣
+║ China   │ 1          ║
+╚═════════╧════════════╝
+
+---deploy---
+
+Executing User_1 Order:
+Deploying 1 armies in Pakistan
+
+ Order Effect
+╔══════════╤════════════╗
+║ COUNTRY  │ ARMY COUNT ║
+╠══════════╪════════════╣
+║ Pakistan │ 1          ║
+╚══════════╧════════════╝
+
+---issue_order---
+User_1 player's turn to Issue Order
+---validatemap---
+
+---VALIDATEMAP---
+Map validation passed successfully!
+---validatemap---
+
+---VALIDATEMAP---
+map must be a connected graph!
+---validatemap---
+
+---VALIDATEMAP---
+Continent must be a connected sub-graph!
+---savemap---
+testing_save_file.map saved successfully!
+
+---editcontinent---
+continentID is added to the list!
